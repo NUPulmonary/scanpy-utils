@@ -46,7 +46,7 @@ def feature_plot(ds, feature, gridsize=(180, 70), linewidths=0.15, figsize=None)
         linewidths=linewidths
     )
     cax = fig.add_axes((0.92, 0.8, 0.02, 0.15))
-    cb = fig.colorbar(hb, cax=cax, fraction=0.05, pad=0.02, aspect=40)
+    fig.colorbar(hb, cax=cax, fraction=0.05, pad=0.02, aspect=40)
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_title(f"{feature}")
