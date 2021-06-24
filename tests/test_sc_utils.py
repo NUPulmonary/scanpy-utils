@@ -1,6 +1,6 @@
 
-from sc_utils import main
+import sc_utils
 
 
 def test_main():
-    pass
+    assert sc_utils.__version__
