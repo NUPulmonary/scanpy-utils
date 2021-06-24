@@ -18,10 +18,6 @@ matrix:
     - env:
         - TOXENV=py39
       python: '3.9'
-    - env:
-        - TOXENV=pypy3
-        - TOXPYTHON=pypy3
-      python: 'pypy3'
 before_install:
   - python --version
   - uname -a
