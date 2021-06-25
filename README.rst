@@ -25,7 +25,7 @@ Overview
 
 .. end-badges
 
-Utility functions for scanpy
+Utility functions for `scanpy <https://scanpy.readthedocs.io>`_
 
 * Free software: MIT license
 
@@ -36,16 +36,12 @@ Installation
 
     pip install scanpy-utils
 
-You can also install the in-development version with::
-
-    pip install https://github.com/NUPulmonary/scanpy-utils/archive/master.zip
-
 
 Documentation
 =============
 
 
-https://scanpy-utils.readthedocs.io/
+See https://scanpy-utils.readthedocs.io/en/latest/reference/index.html
 
 
 Development
