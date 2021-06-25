@@ -23,31 +23,9 @@ Overview
     :alt: Travis-CI Build Status
     :target: https://travis-ci.com/github/NUPulmonary/scanpy-utils
 
-.. |version| image:: https://img.shields.io/pypi/v/scanpy-utils.svg
-    :alt: PyPI Package latest release
-    :target: https://pypi.org/project/scanpy-utils
-
-.. |wheel| image:: https://img.shields.io/pypi/wheel/scanpy-utils.svg
-    :alt: PyPI Wheel
-    :target: https://pypi.org/project/scanpy-utils
-
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/scanpy-utils.svg
-    :alt: Supported versions
-    :target: https://pypi.org/project/scanpy-utils
-
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/scanpy-utils.svg
-    :alt: Supported implementations
-    :target: https://pypi.org/project/scanpy-utils
-
-.. |commits-since| image:: https://img.shields.io/github/commits-since/NUPulmonary/scanpy-utils/v0.1.svg
-    :alt: Commits since latest release
-    :target: https://github.com/NUPulmonary/scanpy-utils/compare/v0.1...master
-
-
-
 .. end-badges
 
-Utility functions for scanpy
+Utility functions for `scanpy <https://scanpy.readthedocs.io>`_
 
 * Free software: MIT license
 
@@ -58,16 +36,12 @@ Installation
 
     pip install scanpy-utils
 
-You can also install the in-development version with::
-
-    pip install https://github.com/NUPulmonary/scanpy-utils/archive/master.zip
-
 
 Documentation
 =============
 
 
-https://scanpy-utils.readthedocs.io/
+See https://scanpy-utils.readthedocs.io/en/latest/reference/index.html
 
 
 Development
