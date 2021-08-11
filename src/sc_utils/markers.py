@@ -54,6 +54,8 @@ def get_markers(
     markers = markers.loc[:, ["cluster", "gene", "avg_logFC", "p_val_adj"]]
     markers = markers.loc[markers.avg_logFC > logfc_cutoff, ]
     markers = markers.loc[markers.p_val_adj < p_val_cutoff, ]
+    markers["pct.1"] = pd.Series(dtype=float)
+    markers["pct.2"] = pd.Series(dtype=float)
 
     for cluster in markers.cluster.unique():
         cells = adata.obs[groupby] == cluster
