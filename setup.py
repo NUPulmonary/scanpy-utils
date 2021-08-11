@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='scanpy-utils',
-    version='0.1',
+    version='0.1.1',
     license='MIT',
     description='Utility functions for scanpy',
     long_description='%s\n%s' % (

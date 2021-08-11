@@ -31,9 +31,9 @@ Overview
     :alt: Supported versions
     :target: https://pypi.org/project/scanpy-utils
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/NUPulmonary/scanpy-utils/v0.1.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/NUPulmonary/scanpy-utils/v0.1.1.svg
     :alt: Commits since latest release
-    :target: https://github.com/NUPulmonary/scanpy-utils/compare/v0.1...master
+    :target: https://github.com/NUPulmonary/scanpy-utils/compare/v0.1.1...master
 
 .. end-badges
 
