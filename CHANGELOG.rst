@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.1.1 (2021-08-11)
+------------------
+* Fix ``get_markers`` function to add ``pct.1`` and ``pct.2`` columns even if no markers were
+  found.
+
 0.1 (2021-06-24) Initial release
 --------------------------------
 

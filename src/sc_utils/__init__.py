@@ -1,4 +1,4 @@
-__version__ = '0.1'
+__version__ = '0.1.1'
 
 from .io import write_mtx
 from .markers import get_markers
